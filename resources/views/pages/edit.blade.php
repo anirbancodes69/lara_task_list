@@ -1,5 +1,5 @@
 @extends('app')
 
 @section('content')
-  @include('includes.form')
+  @include('includes.form', ['task' => $task])
 @endsection
