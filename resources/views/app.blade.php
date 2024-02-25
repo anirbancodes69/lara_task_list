@@ -8,6 +8,9 @@
     </title>
 </head>
 <body>
+    <h1>
+        @yield('title')
+    </h1>
     @if (session()->has('success'))
         {{session('success')}}
     @endif
